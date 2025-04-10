@@ -1,0 +1,131 @@
+body, html {
+    height: 100%;
+    font-family: 'jomhuria', sans-serif;
+  }
+
+ 
+  .overlay {
+    background-color: rgb(0, 75, 35); /* dark green transparent overlay */
+    opacity:0.6;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  } 
+  .bg {
+      height: 100vh;
+      background-image: url('cowkiss.jpg'); /* relative path */
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+     
+      
+      
+      
+
+    
+}
+
+
+  .login-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  }
+
+  h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .divider {
+    border-top: 2px solid black;
+    width: 40px;
+    margin: 5px auto 20px;
+  }
+
+  label {
+    text-align: left;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #e0e0e0;
+    margin-bottom: 10px;
+  }
+
+  .forgot {
+    font-size: 12px;
+    color: blue;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  .login-btn {
+    background-color: #004d26;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .register {
+    font-size: 12px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+  }
+
+  .social-divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+  }
+
+  .social-divider hr {
+    flex: 1;
+    height: 1px;
+    background: black;
+    border: none;
+  }
+
+  .social-divider span {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  .social-icons {
+      display: flex;
+      gap: 50px; /* spacing between icons */
+    }
+    
+    .icon-link img {
+      width: 40px;
+      height: 40px;
+      object-fit: contain;
+      transition: transform 0.2s ease;
+    }
+    
+    .icon-link img:hover {
+      transform: scale(1.1);
+    }
